@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: brown;
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body style="background-color: #b6351a">
+    <!-- first section -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img
+            src="https://scontent.fhyd1-4.fna.fbcdn.net/v/t39.30808-6/283567954_1021519685416555_6720904388363014264_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=CcGt3oH_3OAAX-A1RaI&_nc_ht=scontent.fhyd1-4.fna&oh=00_AT-iHWHR170EW75CqCEB71H7C263y3-UpeAZ5kHV2UCK3w&oe=629F4425"
+            class="img-thumbnail rounded-circle"
+            style="width: 612px; height: 408px"
+            alt="..."
+          />
+        </div>
+        <div class="col col-lg-6 col-md-6 col-sm-12">
+          <div style="text-align: center; margin-top: 20px">
+            <h1>Hi,</h1>
+            <hr />
+            <h2>I Am Muluken Gashaw.</h2>
+            <hr />
+            <a class="btn btn-block btn-social btn-facebook" href="">
+              <span class="fa fa-facebook"></span>
+            </a>
+            <a
+              class="btn btn-block btn-social btn-instagram"
+              href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fmulle_gashaw%3Ffbclid%3DIwAR2dBhZazXEvyci7G_ZDwR0C51KVal99Hwqw1Z_q0TURzojuDrmEKCTuy2c&h=AT19QNCJWLnwbRuutBh6_dl9biBu2hyyXuEaa2Oxm71X1MyCOg8W02qvgzpi7k6RxksoBDg0rcViyouJ2wIWaS851WrbNjmZZzxlpTeDDkm6vshyiXpb0H2-MgzpEP8-m7M7sDzKxnBnb5473-cK"
+            >
+              <span class="fa fa-instagram"></span>
+            </a>
+            <a class="btn btn-block btn-social btn-telegran">
+              <span class="fa fa-telegram"></span>
+            </a>
+            <a class="btn btn-block btn-social btn-twitter">
+              <span class="fa fa-twitter"></span>
+            </a>
+            <a class="btn btn-block btn-social btn-linkedin">
+              <span class="fa fa-linkedin"></span>
+            </a>
+            <hr />
+            <h5><span class="fa fa-envelope"></span> example@gmail.com</h5>
+            <h5><span class="fa fa-phone"></span> +251123456789</h5>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- about  page -->
+      <div>
+        <h1 style="text-align: center">
+          About Me
+          <hr />
+        </h1>
+        <p
+          style="
+            padding: 20px;
+            font-size: large;
+            font-weight: 500;
+            text-align: justify;
+          "
+        >
+          I graduated in <strong>BSc. computer science</strong> from
+          <strong>Andhra university, India</strong> in 2022. i am very
+          interested to work with programming and related fileds on computers.
+          always, i try to upgrade my programming capabilty by studying and
+          watching tutorial and hand on practice which helps me to consider
+          programming as fun. yeah, programming is fun. <br /><br />
+          mostly, i have a Good knowledge on the following languages and skills:
+          <ul>
+              <li>Python</li>
+              <li>Python with Django</li>
+              <li>PHP</li>
+              <li>etc..</li>
+          </ul>
+        </p>
+      </div>
+      <!-- contact page -->
+      <div>
+        <h1 style="text-align: center">
+          Contact Me
+          <hr />
+        </h1>
+        <div class="container">
+          <div style="width: 50%; padding: 10px; margin: auto">
+            <form action="">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name."
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your email address"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">subject</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Your subject"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">your message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="3"
+                  placeholder="your message"
+                ></textarea>
+              </div>
+            </form>
+            <div class="mb-3">
+              <button
+                class="btn btn-outline-dark"
+                type="button"
+                onclick="submit();"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <!-- footer -->
+        <div class="footer">
+          <p>developed by Muller - 2022</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function submit(params) {
+      alert("Please, Use One of my Social account to reach me!");
+    }
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+  ></script>
+</html>
